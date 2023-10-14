@@ -30,22 +30,6 @@ function MainPage() {
       });
   }, []);
 
-  //Get the image of the first resident of the location
-  const getImg = (id) => {
-    fetch(`https://rickandmortyapi.com/api/location/${id}`)
-      .then((response) => response.json())
-      .then((data) => {
-        const resident = data.residents[0];
-        console.log(resident);
-        fetch(resident)
-          .then((response) => response.json())
-          .then((data) => {
-            const img = data.image;
-            return img;
-          });
-      });
-  };
-
   return (
     <div className="">
       <Container className="mt-5">
