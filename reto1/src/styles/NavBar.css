@@ -1,0 +1,17 @@
+* {
+  color: white;
+}
+.sBar{
+  border-radius: 5px;
+  border-color: transparent !important;
+  color:black !important;
+}
+.buttonS{
+  background-color: transparent !important;
+  color: lightblue !important;
+}
+
+.containerNav{
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}

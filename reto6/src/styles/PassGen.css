@@ -1,0 +1,18 @@
+.generated{
+  border-radius: 10px;
+  display: table-cell !important;
+  width: 500px !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+  box-shadow: inset 0 0 0 0.1em black !important;
+}
+.copyBtn {
+  background-color: #32C8CB !important;
+  border-color: transparent !important;
+}
+.copyBtn:hover {
+  background-color: #2FB5B8 !important;
+}
+.copyBtn:active {
+  background-color: #268d8f !important;
+}
